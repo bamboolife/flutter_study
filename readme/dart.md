@@ -1302,8 +1302,8 @@ class Maestro extends Person with Musical,
 - 当您使用延迟加载，请记住以下内容：
 
   - 延迟库的常量在其作为导入文件时不是常量。记住，这些常量不存在，直到迟库被加载完成。
-  -你不能在导入文件中使用延迟库常量的类型。相反，考虑将接口类型移到同时由延迟库和导入文件导入的库。
-  -Dart隐含调用LoadLibrary（）插入到定义deferred as namespace。在调用LoadLibrary（）函数返回一个Future。
+  - 你不能在导入文件中使用延迟库常量的类型。相反，考虑将接口类型移到同时由延迟库和导入文件导入的库。
+  - Dart隐含调用LoadLibrary（）插入到定义deferred as namespace。在调用LoadLibrary（）函数返回一个Future。
 ### 7.库的实现
 
 - 用 library 来来命名库，用part来指定库中的其他文件。 注意：不必在应用程序中（具有顶级main（）函数的文件）使用library，但这样做可以让你在多个文件中执行应用程序。
