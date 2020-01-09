@@ -1281,9 +1281,9 @@ class Maestro extends Person with Musical,
 
 - 延迟(deferred)加载（也称为延迟(lazy)加载）允许应用程序按需加载库。下面是当你可能会使用延迟加载某些情况：
 
-- 为了减少应用程序的初始启动时间；
-- 执行A / B测试-尝试的算法的替代实施方式中；
-- 加载很少使用的功能，例如可选的屏幕和对话框。
+  - 为了减少应用程序的初始启动时间；
+  - 执行A / B测试-尝试的算法的替代实施方式中；
+  - 加载很少使用的功能，例如可选的屏幕和对话框。
 - 为了延迟加载一个库，你必须使用 deferred as 先导入它。
 ```dart
  import 'package:deferred/hello.dart' deferred as hello;
