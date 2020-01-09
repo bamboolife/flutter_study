@@ -1250,7 +1250,7 @@ class Maestro extends Person with Musical,
 ```dart
   import 'dart:html';
 ```
--唯一需要 import 的参数是一个指向库的 URI。对于内置库，URI中具有特殊dart:scheme。对于其他库，你可以使用文件系统路径或package:scheme。包 package：scheme specifies libraries ，如pub工具提供的软件包管理器库。例如：
+- 唯一需要 import 的参数是一个指向库的 URI。对于内置库，URI中具有特殊dart:scheme。对于其他库，你可以使用文件系统路径或package:scheme。包 package：scheme specifies libraries ，如pub工具提供的软件包管理器库。例如：
 ```dart
   import 'dart:io';
   import 'package:mylib/mylib.dart';
@@ -1269,7 +1269,7 @@ class Maestro extends Person with Musical,
 ```   
 ### 5.导入部分库
 
-如果想使用的库一部分，你可以选择性导入库。例如：
+- 如果想使用的库一部分，你可以选择性导入库。例如：
 ```dart
  // 只导入foo库
  import 'package:lib1/lib1.dart' show foo;
